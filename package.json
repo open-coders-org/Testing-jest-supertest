@@ -1,0 +1,33 @@
+{
+  "name": "repo-testing-open-source",
+  "version": "1.0.0",
+  "description": "Project for learn about jest and supertest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opensource-pereira/Testing-jest-supertest.git"
+  },
+  "author": " <eddylson.londonio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opensource-pereira/Testing-jest-supertest/issues"
+  },
+  "homepage": "https://github.com/opensource-pereira/Testing-jest-supertest#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  }
+}
